@@ -5,8 +5,8 @@
 # YOU SHOULD MODIFY THIS FILE
 # USE 'constants_perso' to declare your modifications
 
-# the tag for replacement
-tag = '€'
+# the tag for replacement, changed € to ~ due to deepl replacing € as currency
+tag = '~'
 
 
 # 1. list of LaTeX environnment whose content will be discard
