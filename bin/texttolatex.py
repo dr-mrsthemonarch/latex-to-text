@@ -51,9 +51,9 @@ text_all = fic_txt.read()
 fic_txt.close()
 
 
-# Read dictionnary
+# Read dictionnary, update for ymal 6+ change to safe_load
 fic_dic = open(dic_file, 'r', encoding='utf-8')
-dictionnary = yaml.load(fic_dic)
+dictionnary = yaml.safe_load(fic_dic)
 fic_dic.close()
 
 
